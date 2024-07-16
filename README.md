@@ -25,8 +25,11 @@ This repository implements a RESTful API for a blog application using Express.js
 1. Start the server:
    ```bash
    node server
+   
 2. Visit your blog home
    ```bash
    http://localhost:4000/blogs
-
+![Home](BlogHome.png)
+3. Create new blog
+![Blog form](BlogForm.png)
 
