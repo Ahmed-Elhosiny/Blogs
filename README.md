@@ -1,3 +1,5 @@
+
+
 # Blog API
 
 This repository implements a RESTful API for a blog application using Express.js, Mongoose, and EJS as the template engine. It adheres to the Model-View-Controller (MVC) architecture for a well-organized code structure.
@@ -23,3 +25,8 @@ This repository implements a RESTful API for a blog application using Express.js
 1. Start the server:
    ```bash
    node server
+2. Visit your blog home
+   ```bash
+   http://localhost:4000/blogs
+
+
