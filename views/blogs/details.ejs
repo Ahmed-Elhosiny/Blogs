@@ -20,6 +20,7 @@
       const trachcan = document.querySelector('a.delete');
 
       trachcan.addEventListener('click', (e) => {
+        e.preventDefault();
         const endpoint = `/blogs/${trachcan.dataset.doc}`;
         fetch(endpoint, {
           method: 'delete',
