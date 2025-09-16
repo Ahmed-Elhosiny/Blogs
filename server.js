@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 
 // Connect to Database
 const DB = process.env.DATABASE.replace(
-  '<PASSWORD>',
+  '<db_password>',
   process.env.DATABASE_PASSWORD
 );
 
