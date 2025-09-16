@@ -21,6 +21,10 @@ This repository implements a RESTful API for a blog application using Express.js
 2. Install dependencies:
    ```bash
    npm install
+3. Add .env file
+   ```env
+   DATABASE=
+   DATABASE_PASSWORD=
 ## Usage
 1. Start the server:
    ```bash
